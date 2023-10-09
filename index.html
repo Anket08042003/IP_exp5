@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced JavaScript Assignment</title>
+    <link rel="stylesheet" href="exp5.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Assignment on Advanced Javascript</h1>
+
+        <!-- Objective 1: Calculator with Promises -->
+        <div class="section">
+            <h2 class="section-title">Objective 1: Calculator with Promises</h2>
+            <form id="calculatorForm" class="form">
+                <label for="num1">Number 1:</label>
+                <input type="number" id="num1" required><br><br>
+                
+                <label for="num2">Number 2:</label>
+                <input type="number" id="num2" required><br><br>
+                
+                <label for="operation">Operation (+, -, *, /):</label>
+                <input type="text" id="operation" required><br><br>
+
+                <input type="submit" value="Calculate" class="button">
+            </form>
+
+            <div id="calculatorResult" class="result"></div>
+        </div>
+
+        <!-- Objective 2: Custom Iterator for Squares -->
+        <div class="section">
+            <h2 class="section-title">Objective 2: Custom Iterator for Squares</h2>
+            <form id="squaresForm" class="form">
+                <label for="numbers">Enter numbers (comma-separated):</label>
+                <input type="text" id="numbers" required><br><br>
+
+                <input type="submit" value="Generate Squares" class="button">
+            </form>
+
+            <ul id="squareList" class="list"></ul>
+        </div>
+
+        <!-- Objective 3: Generate Prime Numbers with Generator Function -->
+        <div class="section">
+            <h2 class="section-title">Objective 3: Generate Prime Numbers</h2>
+            <form id="primesForm" class="form">
+                <label for="limit">Enter a limit:</label>
+                <input type="number" id="limit" required><br><br>
+
+                <input type="submit" value="Generate Primes" class="button">
+            </form>
+
+            <ul id="primeList" class="list"></ul>
+        </div>
+    </div>
+
+    <script src="exp5.js"></script>
+</body>
+</html>
